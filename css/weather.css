@@ -1,0 +1,12 @@
+.header-weather {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    padding-right: 20px;
+    text-align: end;
+  }
+  
+  .header-weather__place {
+    font-size: 28px;
+    font-weight: 600;
+  }

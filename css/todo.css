@@ -1,0 +1,49 @@
+
+ .main-screen__todo input {
+    border: 3px solid rgba(87, 65, 10, 0.9);
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    padding: 1px 5px;
+  }
+  
+  .js-toDoForm input::placeholder {
+    font-size: 35px;
+    font-weight: 700;
+    color: rgba(87, 65, 10, 0.8);
+  }
+
+
+  .js-toDoList {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+  }
+  
+  .js-toDoList li {
+    list-style: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    align-items: center;
+  }
+
+  .js-toDoList li::before {
+    content: '\f1b0';
+    font-family: FontAwesome;
+    padding-right: 10px;
+    color: pink;
+  }
+
+  .js-toDoList span {
+    margin-right: 10px;
+  }
+
+  .js-toDoList button {
+    border: 0.5px red solid;
+    font-size: 13px;
+    padding: 2px 2px;
+    margin-top: 5px;
+    border-radius: 200px;
+    background-color: black;
+  }
