@@ -35,8 +35,9 @@ function handleGeoError() {
 }
 
 function askForCoords() {
-    navigator.geolocation.getCurrentPosition(handleGeoSucces, handleGeoError);
+    navigator.geolocation.watchPosition(handleGeoSucces, handleGeoError);
 }
+
 
 function loadCoords() {
     const loadedCoords = localStorage.getItem(COORDS);
