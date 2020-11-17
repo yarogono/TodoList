@@ -1,14 +1,17 @@
 .header-weather {
     color: white;
-    font-size: 40px;
-    font-weight: 700;
     height: 60px;
     padding: 10px;
     text-align: end;
     text-shadow: 2px 2px 2px orange;
   }
   
-  .header-weather__place {
+  .header-weather__temp span {    
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .header-weather__place span {
     font-size: 28px;
     font-weight: 600;
   }
