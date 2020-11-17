@@ -4,6 +4,7 @@
     font-weight: 700;
     padding-right: 20px;
     text-align: end;
+    text-shadow: 2px 2px 2px orange;
   }
   
   .header-weather__place {
