@@ -2,9 +2,12 @@
     color: white;
     font-size: 40px;
     font-weight: 700;
-    padding-right: 20px;
+    padding: 20px;
     text-align: end;
     text-shadow: 2px 2px 2px orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
   
   .header-weather__place {
